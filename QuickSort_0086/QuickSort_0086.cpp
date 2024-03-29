@@ -38,5 +38,11 @@ void swap(int x, int y)
 
 }
 
+void q_short(int low, int high)
+{
+	
+}
+
+
 
 
