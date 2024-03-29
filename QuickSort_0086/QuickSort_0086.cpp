@@ -24,12 +24,19 @@ void input() {
 
 	for (int i = 0; i < n; i++);
 	{
-		cout << "<" << ( i + 1) << ">";
+		cout << "<" << (i+1) << ">";
 		cin >> arr[i];
 	}
+}
 
-
+void swap(int x, int y)
+{
+	int temp = arr[x];
+	arr[x] = arr[y];
+	arr[y] = temp;
+	mov_count++;
 
 }
+
 
 
